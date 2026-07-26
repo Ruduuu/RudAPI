@@ -1,4 +1,5 @@
 # RudAPI
+<<<<<<< HEAD
 
 Personal backbone API with Express, PostgreSQL, Sequelize, JWT, and Swagger.
 
@@ -40,3 +41,6 @@ Open:
 - `GET /v1/notes`
 - `POST /v1/notes`
 - `DELETE /v1/notes/:id`
+=======
+This repo includes the API which stores my personnel data ( Profile , Projects , Links &amp; Notes )  .
+>>>>>>> 1fa174830186f8050e29bdfc058685e6485db0a8
