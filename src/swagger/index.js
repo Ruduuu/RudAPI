@@ -9,7 +9,7 @@ const options = {
             description: 'Personal backbone API for future projects'
         },
         servers: [
-            { url: 'http://localhost:3000', description: 'Local' }
+            { url: 'https://rudapi.onrender.com', description: 'Render' }
         ],
         components: {
             securitySchemes: {
