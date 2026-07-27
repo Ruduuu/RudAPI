@@ -9,7 +9,7 @@
         "db:create": "sequelize db:create",
         "migrate": "sequelize db:migrate",
         "undo": "sequelize db:migrate:undo:all",
-        "seed": "sequelize db:seed:all"
+        "seed": "sequelize db:seed:all",
         "migrate:prod": "npx sequelize-cli db:migrate --env production",
         "seed:prod": "npx sequelize-cli db:seed:all --env production"
     },
