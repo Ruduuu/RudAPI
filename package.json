@@ -10,6 +10,8 @@
         "migrate": "sequelize db:migrate",
         "undo": "sequelize db:migrate:undo:all",
         "seed": "sequelize db:seed:all"
+        "migrate:prod": "npx sequelize-cli db:migrate --env production",
+        "seed:prod": "npx sequelize-cli db:seed:all --env production"
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
