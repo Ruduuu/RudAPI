@@ -1,25 +1,20 @@
 # RudAPI
-<<<<<<< HEAD
 
-Personal backbone API with Express, PostgreSQL, Sequelize, JWT, and Swagger.
+Personal backend-as-a-service API built with Node.js, Express, Sequelize, JWT, Swagger and PostgreSQL.
 
-## Setup
+## Features
 
-1. Copy `.env.example` to `.env`
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Create PostgreSQL database.
-4. Run:
-   ```bash
-   npm run dev
-   ```
+- Authentication (register, login, JWT)
+- Profile management
+- Projects, Skills, Links, Notes management
+- Admin operations
+- Role-based access (owner/admin/user)
+- Swagger documentation
 
 ## Docs
 
 Open:
-`http://localhost:3000/api-docs`
+https://rudapi.onrender.com/api-docs/
 
 ## Endpoints
 
